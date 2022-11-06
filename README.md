@@ -89,17 +89,18 @@ Blog field
 
 
 ###### APIs
-
+```js
 Signup User
 Route: /auth/signup
 Method: POST
 Body:
+
 {
   "first_name": "doja1,
   "last_name": "cat1",
   "email": "cat1@yahoo.com",
   "password": "dojacat1"
-}
+} ```
 
 Responses
 Success
