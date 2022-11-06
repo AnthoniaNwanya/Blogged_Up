@@ -1,0 +1,38 @@
+{
+  "name": "exam-project",
+  "version": "1.0.0",
+  "description": "A blogging API",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthoniaNwanya/Blogged_Up.git"
+  },
+  "author": "Anthonia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthoniaNwanya/Blogged_Up/issues"
+  },
+  "homepage": "https://github.com/AnthoniaNwanya/Blogged_Up#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongodb-memory-server": "^8.9.5",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
