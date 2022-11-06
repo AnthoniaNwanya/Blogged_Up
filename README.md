@@ -59,25 +59,19 @@ Requirements
 Install NodeJS, mongodb
 
 ###### Models
-
+```js
 User field
 
 - first_name: String
-
 - last_name: String
-
 - email: String
-
 - password: String
-
 - token: String
 
- default: draft, enum: ['draft', 'published']
 
 Blog field
 
 - title:  required and unique
- 
 - description: String
 - author: Strung
 - state: draft, enum: ['draft', 'published']
@@ -86,7 +80,7 @@ Blog field
 - tags: Array
 - body: String, required
 - timestamp: Date
-
+```
 
 ###### APIs
 ```js
