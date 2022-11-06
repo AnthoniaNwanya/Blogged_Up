@@ -18,8 +18,8 @@ app.use("/auth", JwtRoute);
 app.use("/blog", BlogRoute);
 app.use("/user", UserRoute);
 
-app.all("/", (req, res) => {
-  res.redirect('https://github.com/AnthoniaNwanya/Blogged_Up/blob/9ad5d75ee16884e75ba13ad121474c40a2970205/README.md')
+app.get("/", (req, res) => {
+  res.send('Welcome to Blogged Up')
 } )
 
 app.use(function (err, req, res, next) {
