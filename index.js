@@ -19,7 +19,7 @@ app.use("/blog", BlogRoute);
 app.use("/user", UserRoute);
 
 app.get("/", (req, res) => {
-  res.send('Welcome to Blogged Up')
+  res.send('BLOGGED UP API')
 } )
 
 app.use(function (err, req, res, next) {
