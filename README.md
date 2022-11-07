@@ -187,7 +187,7 @@ Success
 
 
 Get Published State
-Route: /blog/id?id
+Route: /blog/id:id
 Method: GET
 Responses
 Success
@@ -212,7 +212,7 @@ Success
 
 
 Get Draft State
-Route: /blog/draft?id
+Route: /blog/draft:id
 Method: GET
 Header:
 Authorization: Bearer {token}
@@ -240,7 +240,7 @@ Success
 }
 
 Update Blog
-Route: /blog
+Route: /blog:id
 Method: PUT
 Header:
 Authorization: Bearer {token}
@@ -267,7 +267,7 @@ Success
 
 
 Delete Blog
-Route: /blog
+Route: /blog:id
 Method: DELETE
 Header:
 Authorization: Bearer {token}
